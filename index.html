@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Semantic Layout Exercise</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+  
+    <link rel="stylesheet" href="styles.css">
+
     <style>
         .nav__link{
             float:left;
             margin-left:2%;
         }
     </style>
-</head>s
-<body style-="padding:0;margin:0;text-align:center;">
+</head>
+<body style="padding:0;margin:0;text-align:center;">
     <!--------------------- HEADER SECTION ---------------->
     <header style="background-color: blue;padding:0;margin:0;">
         <h1>HEADER</h1>
@@ -33,7 +38,7 @@
     <section style="background-color: pink;height: 50%;">
         <!-- ASIDE -->
         <aside style="background-color: red;height: 100%;width: 30%; float: right;">
-            <h3>ASIDE</h3>
+        <h3>ASIDE</h3>
        <ul>
         
             <li>Unordered List Item</li>
@@ -43,38 +48,41 @@
             <li>Unordered List Item</li>
         </ul>    
         <ol>
-            <li>Unordered List Item</li>
-            <li>Unordered List Item</li>
-            <li>Unordered List Item</li>
-            <li>Unordered List Item</li>
-            <li>Unordered List Item</li>   
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>   
 
         </ol>    
         <dl style="text-align: left;">
             <dt>Coffee</dt>
-            <dt>Hot and Cold</dt>
+            <dd>Hot and Cold</dd>
             <dt>Milk tea</dt>
-            <dt>Cold and Sweet</dt>
+            <dd>Cold and Sweet</dd>
 
         </dl>     
         </aside>
         <!-- ARTICLE1 -->
         <h3>SECTION 1</h3>
         <article style="background-color: green; height: 50%;">
-            <h3>ARTICLE</h3>
-
+            <h3>ARTICLE 1</h3>
         </article>
-
     </section>
 
 
-
     <!-- --------------------SECTION 2------------------ -->
-    <!-- ARTICLE1 -->
+    <section style="background-color: gray;height: 20%; margin: 0 5%;">
+        <h3>SECTION 2</h3>
+        <!-- ARTICLE 2 -->
+        <h3 id="article2">ARTICLE 2</h3>
+        <p>This is jus a random test just to show</p>
+    </section>
+    
     <!-- ASIDE -->
 
-        <!-- --------------------SECTION 2------------------ -->
-    <!-- ARTICLE1 -->
+        <!-- --------------------SECTION 3------------------ -->
+    <!-- ARTICLE 2 -->
     <!-- ASIDE -->
 
     </main>
